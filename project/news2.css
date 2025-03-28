@@ -253,6 +253,9 @@
                     text-decoration:none;
                     color:black;
                 }
+                a:hover{
+                    color:#EB5D5D;
+                }
                 span{
                     font-family:'segoe-UI';
                     font-weight: bold;
@@ -639,7 +642,7 @@ fh2{
         display: flex;
      }
      /* ---------------------------footer-----------------------------*/
-     .footer1{
+      .footer1{
         background-color: #EB5D5D;
     max-width: 75%;
     margin-left: 9rem;
@@ -675,27 +678,108 @@ fh2{
         padding-top: 2rem;
         height: 90vh;
         width: 100%;
+
     }
-    .line2 a{
-        color:azure;
-        text-decoration-line: none;
+    .line2{
+        
+
+        p{
+            font-size: 25px;
+            font-family: arial;
+            color:white;
+        }
+        ul{
+            list-style-type: none;
+            li{
+                font-family: arial;
+                font-size: 20px;
+                padding:0.5rem 0 0 1rem;
+                
+               
+                a{
+                    color:#9696ad;
+                    text-decoration-line: none;
+                }
+            }
+        }
+
     }
-    .line3 a{
-        color:azure;
-        text-decoration-line: none;
+    .line3{
+      
+        p{
+            font-size: 25px;
+            font-family: arial;
+            color:white;
+        }
+        ul{
+            list-style-type: none;
+            li{
+                font-family: arial;
+                font-size: 20px;
+                padding:0.5rem 0 0 1rem;
+                
+               
+                a{
+                    color:#9696ad;
+                    text-decoration-line: none;
+                }
+            }
+        }
     }
     .footer2 a:hover{
         color: #EB5D5D;
     }
     .line{
-        padding-top: 5rem;
-        color: azure;
-        margin-left: 5rem;
+        
+        margin:9rem 10rem;
+        display:flex;
+        justify-content: space-between;
     }
-    .line p{
-        padding: 10px;
+    .line1{
+        p{
+            color:#9696ad;
+            font-family: arial;
+            font-size: 17px;
+            padding:10px 0 0;
+        }
+        h1{
+            color:white;
+            padding:0 0 0.5rem;
+        }
+        span {
+            margin:1rem 0;
+           p{
+            color:white;
+           }
+        }
     }
-    .line4 p{
-        padding: 10px;
+    .line4 {
+        padding:2rem;
+        background-color:#2a2a35;
+        h1{
+            font-family: arial;
+            font-size: 20px;
+            color:white;
+        }
+        p{
+            font-family: arial;
+            color:#9696ad;
+            line-height: 2rem;
+            padding:1rem 0 2rem;
+        }
+        
+            input{
+            
+                 width: 20rem; 
+                height: 30px;
+                margin:-10px 0 0 0px;
+                border:solid 1px white;
+                padding:8px;
+                border-radius: 5px;
+            
+            
+            }
+            
+        
     }
     

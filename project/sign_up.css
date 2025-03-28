@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:arial;
+
+
+}
+p{
+    text-align: center;
+    margin-bottom: 10px;
+    a{
+        text-decoration: none;
+        color:white;
+        font-size: 30px;
+        font-family: arial;
+    }
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./pictures/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #58AEC0;
+
+    }
+    .div.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    }
+    .regular-user_sign_up form {
+    display: block;
+    /* border:solid; */
+    width:30vw ;
+    height: 90vh;
+    /* text-align: center; */
+    padding: 2rem 0 0 5rem ;
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    /* flex-direction: column; */
+    }
+    
+    .regular-user_sign_up label {
+    margin-top: 30px;
+    
+    }
+    .regular-user_sign_up input[type="text"],
+    .regular-user_sign_up input[type="email"],
+    .regular-user_sign_up input[type="password"] {
+    padding: 10px 40px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* display:block; */
+    }
+    .regular-user_sign_up input[type="radio"],
+    .regular-user_sign_up input[type="checkbox"] {
+    margin:10px ;
+    }
+    .regular-user_sign_up button {
+    background-color:#58AEC0;
+    color: white;
+    padding: 10px 8rem;
+    border: solid #58AEC0;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin:1rem 0 2rem ;
+    }
+    .regular-user_sign_up .simple{
+        background-color: white;
+        border:none;
+        color:#0056b3;
+        text-decoration: underline;
+        padding:0;
+        margin:0;
+    }
+    .regular-user_sign_up button:hover {
+    background-color:white;
+    color:black;
+    }
+    .regular-user_sign_up .simple:hover{
+
+    }
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+    .div.container {
+    padding: 15px;
+    }
+    }
