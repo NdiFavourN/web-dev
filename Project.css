@@ -1,0 +1,567 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    /* border: solid red; */
+    height: 24vh;
+    width:100%;
+    padding-bottom: -9px;
+    background-color: aliceblue;
+    margin-top: -13px;
+
+}
+
+/* ----------------------------------------navbar1---------------------------------- */
+.navbar1{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 12rem 0rem 12rem;
+   /* max-width: 57%; */
+   
+   
+   
+}
+
+/* --------------------------------------------menu1-------------------------------- */
+.menu1{
+    display:flex;
+    float: right;
+    padding: 20px 0 0 ;
+    margin-right: 15px;
+    /* border:solid red; */
+    align-content: center;
+    justify-content: center;
+    
+}
+.search{
+    margin: 0;
+    
+}
+ input .text{
+    padding: 80px;
+    border:1px;
+    /* outline: none; */
+    border-radius: 5px;
+    font-size: 30px;
+
+
+}
+.search button{
+    padding: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(252, 253, 253) ;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+/* ----------------------------------------------------menu2---------------------------------------------- */
+.menu2{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    padding: 10px 0 0 ;
+    /* border:solid red; */
+}
+.phone-i{
+    margin: 0 10px 0 30px ; 
+    width: 50px; 
+    height:50px;
+    background-color: aliceblue;
+}
+.email-i{
+    margin-right: 10px;
+    width: 50px;
+    height:50px;
+    /* border: solid red; */
+    background-color: aliceblue;
+}
+
+/* -----------------------------------------navbar-------------------------------------- */
+.navbar{
+    background-color: white;
+    margin-top: 1rem;
+    position: sticky;
+    margin: 0 12rem 0 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+    /* position: relative; */
+    /* border: 2px solid; */
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.bar1{
+    margin-left: -25px;
+    display: flex;
+    gap: 20px;
+}
+ul{
+    display: block;
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    width: 95%;
+    overflow: hidden;
+}
+li{
+  /* display: inline-block; */
+  /* font-family:Arial, Helvetica, sans-serif; */
+  float: left;
+  text-align: center;
+  font-weight:100;
+}
+li a{
+  /* font-size: 40px; */
+  display: block;
+  border: none;
+  padding: 20px;
+  /* background-color: white; */
+}
+li a:hover:not(.active){
+  background-color: rgb(164, 216, 250);
+
+}
+.active{
+  background-color: rgb(164, 234, 253);
+  font-weight: bold;
+  
+}
+/* button{
+    
+    padding: 0;
+    /* margin-right: 10px; */
+    /* border-width: 0cap;
+    background-color: red;
+    height: 80%;
+    transition: .4s; */
+    /* float: right; */
+    
+/* }  */
+ /* button:hover{
+    background-color: rgb(165, 156, 156);
+    transform: scale(1.05);
+} */
+ .signup{
+    
+    
+    height: 100%;
+    float: right;
+    display: flex;
+    position: absolute;
+    right: 5px;
+    align-items: center;
+    /* border: solid red; */
+    
+}
+.signup a{
+    display: flex;
+    border: solid rgb(6, 174, 59);
+    padding: px;
+}
+.signup a:hover{
+    background-color: rgb(42, 6, 172);
+}
+.body{
+    background-image: url(./pictures/img-project-W3BBFVN.jpg);
+    height: 70vh;
+
+}
+.body1{
+ margin-right: 55rem;
+ width: 53%;
+ 
+}
+.body2{
+    margin-left: 15rem;
+    margin-top: -25rem;
+    color: white;
+}
+.body2of2{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    
+}
+.buttons{
+    margin-left: 13rem;
+    gap: 4rem;
+    /* background-color: aqua; */
+
+}
+/* ..,.,...,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,dropdown,........................................................., */
+/* .drop  {
+    text-decoration: none;
+    color: black;
+    background-color: none;
+
+  
+    }
+    .drop a{
+        display: flex;
+        position: absolute;
+    }
+#dropdown{
+        display: none;
+        margin-top: 3rem;
+    }
+    .dropdown-menu{
+     border: solid yellowgreen;
+     display: none;
+     margin-top: 0.5rem;
+     background-color: white;
+     margin-left: 13rem;
+     margin-right: 20rem;
+     position: absolute;
+
+    
+
+    }
+     label a{
+        /* background-color: aqua; */
+        /* margin-left: 11rem;
+        padding-bottom: 0.5rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+}
+         label a:hover{
+            background-color: white;
+         }
+    .dropdown-menu {
+        display: flex;
+        /* flex-direction: row; */
+        /* gap: 2rem; */
+
+    /* }
+    #dropdown:checked ~ .dropdown-menu{
+        display: none;
+    } */
+
+
+/* #dropdown2{
+        display: none;
+        margin-top: 3rem;
+    }
+    .dropdown-menu2{
+     border: solid yellowgreen;
+     display: none;
+     margin-top: 0.5rem;
+     background-color: white;
+     /* margin-left: 8rem;
+     margin-right: 20rem; */
+     /* position: absolute;  */
+ /* }
+    label a p{
+        /* background-color: aqua; */
+        /* margin-left: 11rem;
+        padding-bottom: 0.5rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+         }
+         label a:hover{ */
+            /* background-color: white;
+         }
+    .dropdown-menu2 {
+        display: flex;
+        gap: 2rem;
+
+    }
+    #dropdown2:checked ~ .dropdown-menu2{
+        display: none;
+    }  */ 
+
+    .recommended{
+        background-image: url(./no\ background\ images/image-1.png);
+        margin-top: 15rem;
+        
+    }
+    .recommended1{
+        width: 40vw;
+        margin-left: 40rem;
+        margin-top: 2rem;
+       
+    }
+    .image-under{
+         background-image:url(./no\ background\ images/childwriting.jpg);
+    width: 40rem;
+    height: 25rem; 
+    margin-left: 10rem;
+    margin-top: 2rem;
+    padding: rem 0 1rem;
+}
+    
+    .image-recommended p{
+        color:black;
+        margin-top: 1rem;
+        text-align: left;
+    }
+        .image-under2{
+             background-image:url(./no\ background\ images/image2-4.jpg);
+            width: 40rem;
+            height: 25rem; 
+            margin-left: 5rem;
+            margin-top: 2rem;
+            padding: rem 0 1rem;
+            /* background-color: white;     */
+
+        }
+    
+    
+    .image-recommended2 p{
+        /* padding: 8px; */
+        /* margin-left: 40px; */
+        color:black;
+        margin-top: 1rem;
+        text-align: left;
+    }
+    .words-under{
+       background-color: white;
+        margin: 17.5rem 0.5rem 0 0.5rem ;
+        
+    }
+    .all{
+        display: flex;
+        gap: 5rem;
+    }
+    .hero3{
+    
+
+    }
+    .top_para{
+        text-align: center;
+       font-family: sans-serif;
+       margin-top: 7rem;
+       color:#848493;
+       font-size: 15px;
+       img{
+        margin-left: 10px;
+       }
+    }
+    .down_para{
+        text-align: center;
+        font-family: arial;
+        font-size:30px;
+        font-weight: bold;
+    }
+    .explore_projects{
+        display: flex; 
+        justify-content: space-between;
+        width: 80%;
+        max-width: 80%;
+        height:74vh;
+        margin:4rem 10rem;
+       
+        .ex_left{
+            border:solid #848493 1px;
+            text-align: center;
+            width: 380px;
+            max-width: 400px;
+            img{
+                width:350px;
+                margin-top: 10px;
+            }
+           .tag{ 
+            width: 70%;
+            z-index: 2; 
+            margin: -16rem 0 17rem 10px;
+            color: white;
+            font-family: arial;
+            text-align: left;
+            
+            img{
+                width:105px;
+                
+            }
+            p{
+                z-index: 3;
+                margin: -33px 0 0 10px;
+                font-size: 13px;
+            }
+
+
+           }
+            }
+            .p1{
+                color: #848493;
+                font-family: arial;
+                font-size: 14px;
+            }
+            .p2{
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 27px;
+                margin-top: 10px;
+            }
+            .p3{
+                margin-top: 2rem;
+                font-size: 20px;
+                font-family: sans-serif;
+                color: #848493;
+                span{
+                    
+                    font-family: sans-serif;
+                    font-size: 60px;
+                    color: black;
+                }
+            }
+            .grey{
+                background-color: #8484934e;
+                color: #84849311 ;
+                width: 90%;
+                border-radius: 3cap;
+                margin:0 1rem;
+    
+            }
+        }
+        .add-project{
+            background-image: url(./pictures/supervisor\ bg.jpg);
+            /* width: 100%; */
+            height: 52vh;
+            background-size: cover;
+            margin-top: 2rem;
+        
+        }
+         .supervisor1{
+            margin-left: 5rem;
+            font-size: 1.5rem;
+            color: black;
+            border-left: solid 7px #58AEC0; 
+            background-color: azure;
+            p{
+                margin-left: 1rem;
+            }
+
+            
+
+         } 
+        .project-image{
+            border-top-right-radius: 5.5rem;
+            border-bottom-right-radius: 5.5rem;
+            max-width: 60%;
+            background: linear-gradient(to right, #58AEC0,white);
+            /* border: solid red; */
+
+            img{
+                border-radius: 50%;
+                border: solid white;
+                width: 8rem;
+                margin-left: 1rem;
+
+            }
+        }
+        .supervisors{
+            display: flex;
+        }
+        .discover-project{
+            margin: 5rem 0 0 5rem;
+            display: flex;
+            gap: 54rem;
+           
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        button{
+            margin-bottom: 2rem;
+            padding: 1rem 0.5rem 1rem 0.5rem;
+            background-color:rgba(255, 255, 255, 0.768);
+        }
+        button:hover{
+            background-color: rgba(255, 0, 0, 0.348);
+        }
+
+            
+        }
+    .addproject{
+        button{
+            margin: -2rem 0 0 35rem;
+            padding: 1rem 0.5rem 1rem 0.5rem;
+            background-color: rgba(255, 0, 0, 0.251);  
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+/* .,.,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,footer.,,................................................ */
+.footer1{
+    background-color: orangered;
+max-width: 60%;
+margin-left: 12rem;
+height: 12vh;
+border: solid white 50px;
+margin-top: -6rem;
+padding-top: 2rem;
+color: azure;
+}
+.footer2{
+    background-image: url(./no\ background\ images/Base-5.jpg);
+    display: block;
+    gap: 15rem;
+    padding-top: 2rem;
+    height: 90vh;
+    width: 100%;
+}
+.line2 a{
+    color:azure;
+    text-decoration-line: none;
+}
+.line3 a{
+    color:azure;
+    text-decoration-line: none;
+}
+.footer2 a:hover{
+    color: red;
+}
+.line{
+    padding-top: 5rem;
+    color: azure;
+    margin-left: 5rem;
+}
+.line p{
+    padding: 10px;
+}
+.line4 p{
+    padding: 10px;
+}
+
