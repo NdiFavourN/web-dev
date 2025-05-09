@@ -773,6 +773,17 @@ fh2{
             color:white;
            }
         }
+        .socials{
+            display:flex;
+            justify-content: space-between;
+            width:75%;
+            background-color: #EB5D5D;
+            img{
+                width:2rem;
+                height:2rem;
+                background-color: white;
+            }
+        }
     }
     .line4 {
         padding:2rem;
